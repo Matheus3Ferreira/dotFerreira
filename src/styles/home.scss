@@ -1,0 +1,75 @@
+.home-page {
+    display: flex;
+    
+    .side-bar{
+        width: 35vw;
+        background: #171920;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50px;
+        
+        img {
+            width: 240px;
+            height: 240px;
+            border-radius: 9999px;
+            border: 2px solid #FFF;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        h2, p, a {
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+        } 
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            
+            a {
+                font-size: 24px;
+                text-decoration: none;
+                color: #FFF;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    main {
+        height: 100vh;
+        width: 100%;
+
+        .page-title {
+            font-weight: 700;
+            text-align: end;
+            margin: 30px 35px 35px 0;
+        }
+
+        h1 {
+            margin-bottom: 65px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            'title title'
+            'button server';
+        }
+
+        .grid-title {
+            grid-area: title;
+            margin-bottom: 20px;
+        }
+
+        .button-home {
+            grid-area: button;
+            margin-left: 160px;
+        }
+        
+        .server {
+            width: 600px;
+            grid-area: server;
+        }
+    }
+}
