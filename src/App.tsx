@@ -1,15 +1,13 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { SideBar } from "./components/SideBar";
 import "./styles/global.scss";
+import {RoutesComponent} from "./routes"
 
 function App() {
   return (
-    <BrowserRouter> 
-      <Routes>
-        <Route index element={<Home />} />
-      </Routes> 
-    </BrowserRouter>
+   <div className="page-layout">
+     <SideBar />
+     <RoutesComponent/>
+   </div>
   );
 }
 

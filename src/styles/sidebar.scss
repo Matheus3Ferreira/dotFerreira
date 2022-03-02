@@ -1,0 +1,37 @@
+.side-bar{
+    width: 25vw;
+    height: 100vh;
+    background: #171920;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    min-width: 260px;
+    
+    > img {
+        width: 240px;
+        height: 240px;
+        border-radius: 9999px;
+        border: 2px solid #FFF;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    h2, p, a {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+    } 
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        
+        a {
+            font-size: 24px;
+            text-decoration: none;
+            color: #FFF;
+            margin-bottom: 15px;
+        }
+    }
+}
