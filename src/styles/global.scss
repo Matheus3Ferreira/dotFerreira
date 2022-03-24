@@ -17,14 +17,20 @@ body, input, button, textarea, p, h1, h2 {
 h1 {
     font-size: 36px;
     font-family: "Roboto", sans-serif;
+    font-weight: normal;
 }
 
 h2 {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
+    font-weight: normal;
 }
 
 .page-layout {
     display: flex;
-    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
 }

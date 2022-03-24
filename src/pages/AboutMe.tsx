@@ -1,9 +1,12 @@
+import { Logo } from "../components/Logo"
 
 
 export function AboutMe() {
     return (
-        <>  
-        About Me
-        </>
+        <div>
+            <h1>About me</h1>  
+            <h2>I’m a Developer Backend, able to learn everything, searching incredible ideas to make it happen.</h2>
+        
+        </div>
     )
 }

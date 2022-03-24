@@ -1,13 +1,24 @@
 import { SideBar } from "./components/SideBar";
 import "./styles/global.scss";
-import {RoutesComponent} from "./routes"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AboutMe } from "./pages/AboutMe";
+import { Home } from "./pages/Home";
+import { Logo } from "./components/Logo";
 
 function App() {
   return (
-   <div className="page-layout">
-     <SideBar />
-     <RoutesComponent/>
-   </div>
+    <BrowserRouter>
+      <div className="page-layout">
+        <SideBar />
+        <main>
+        <Logo/>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/aboutme"element={<AboutMe />}></Route>
+        </Routes> 
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
