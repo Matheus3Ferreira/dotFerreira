@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -14,15 +15,18 @@ body, input, button, textarea, p, h1, h2 {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 h1 {
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
     font-weight: normal;
 }
 
 h2 {
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
     font-weight: normal;
 }
 
@@ -33,4 +37,5 @@ h2 {
 
 main {
     width: 100%;
+    padding: 0 35px 0 50px;
 }

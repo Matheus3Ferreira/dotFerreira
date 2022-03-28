@@ -1,27 +1,34 @@
-main {
-    .home-title {
-        margin-bottom: 65px;
-    }
 
-    .grid-container {
-        display: grid;
-        grid-template-areas: 
-        'title title'
-        'button server';
-    }
+.home-title {
+    margin-bottom: 65px;
+}
 
-    .grid-title {
-        grid-area: title;
-        margin-bottom: 20px;
-    }
-
+.flex-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-left: 150px;
+    
     .button-home {
         grid-area: button;
-        margin-left: 160px;
+        margin-right: 15px;
     }
-    
     .server {
-        width: 600px;
-        grid-area: server;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 550px;
+        img {
+            margin-top: -50px;
+        }
     }
 }
+
+.grid-title {
+    grid-area: title;
+    margin-bottom: 20px;
+}
+
+
+
