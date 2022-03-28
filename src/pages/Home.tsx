@@ -11,7 +11,7 @@ export function Home() {
             <h2 className="grid-title">Wanna know more about my skills?<br/>Check out about me. 👇</h2>
             <div className="flex-container">
                 <Button className="button-home button" onClick={() => navigate('/aboutme')}>About me</Button>
-                <div  className="server">
+                <div className="storyset">
                     <img src={server} alt="server"/>
                     <a href="https://storyset.com/internet">Internet illustrations by Storyset</a>
                 </div>

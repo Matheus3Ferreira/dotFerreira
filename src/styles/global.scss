@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body {
@@ -32,10 +31,23 @@ h2 {
 
 .page-layout {
     display: flex;
-    width: 100%;
 }
 
 main {
     width: 100%;
     padding: 0 35px 0 50px;
+    //Display is flex to fill the page with flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.storyset {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    img {
+        margin-top: -50px;
+    }
 }
