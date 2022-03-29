@@ -13,13 +13,17 @@
         grid-area: button;
         margin-right: 15px;
     }
- 
+    > .storyset {
+        width: 550px;
+        img {
+            margin-top: -50px;
+        }
+    }
 }
 
 .grid-title {
     grid-area: title;
     margin-bottom: 20px;
 }
-
 
 

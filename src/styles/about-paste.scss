@@ -3,7 +3,62 @@
     flex-direction: column;
     margin-bottom: 20px;
     flex: 1;
-    padding: 30px 15px;
+    padding: 30px 45px;
+    .maintence {
+        width: 550px;
+        img {
+            margin-top: -50px;
+        }
+    }
+    .rocket {
+        position: relative;
+        .position {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            img {
+             width: 450px;
+            }
+            a {
+                margin-top: -40px;
+            }
+        }
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 12px;
+    
+        li {
+            margin-bottom: 10px;
+            .link-underlined {
+                text-decoration: underline;
+            }
+        }
+    }
+    > p {
+        margin-bottom: 15px;
+    }
+    .flex-text-img {
+        display: flex;
+        > div {
+            p {
+                margin-bottom: 15px;
+            }
+        }
+        img {
+            max-width: 400px;
+            margin-left: 70px;
+        }
+    }
+    .bold-title {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+
 }
 .paste:first-child {
     align-items: center;

@@ -2,10 +2,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    > h1 {
+        margin-bottom: 20px;
+    }
 }
 
 .pastes-container {
     flex: 1;
     display: flex;
     flex-direction: column;
+    
 }
