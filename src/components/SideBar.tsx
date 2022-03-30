@@ -18,7 +18,7 @@ export function SideBar(){
                 <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/">Home</NavLink>
                 <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/aboutme">About me</NavLink>
                 <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/projects">Projects</NavLink>
-                <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/contact">Contact me</NavLink>
+                <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/contactme">Contact me</NavLink>
                 <NavLink className={({isActive}) => CheckNavLinkActived(isActive)} to="/feedback">Feedback</NavLink>
             </nav>
         </div>

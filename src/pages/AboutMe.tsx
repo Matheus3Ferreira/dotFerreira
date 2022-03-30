@@ -1,10 +1,10 @@
 import { useState } from "react"
 import AboutPaste from "../components/AboutPaste";
 import ButtonPaste from "../components/ButtonPaste";
-import maintence from "../assets/maintence.svg"
 import "../styles/about-me.scss";
 import rocket from "../assets/rocket.svg";
 import boi from "../assets/boi.png";
+import Maintence from "../components/Maintence";
 
 export function AboutMe() {
     //Every paste has a id, and it changes the state to the paste id to show it.
@@ -38,11 +38,7 @@ export function AboutMe() {
                 <div className="pastes-container">
 
                     <AboutPaste id={1} background={pasteInfo[0].color} selected={paste}>
-                        <h1>We are making the design, soon will have great things!</h1>
-                        <div className="storyset maintence">
-                            <img src={maintence} alt="maintence" />
-                            <a href="https://storyset.com/worker">Worker illustrations by Storyset</a>
-                        </div>
+                        <Maintence />
                     </AboutPaste>
 
                     <AboutPaste id={2} background={pasteInfo[1].color} selected={paste}>
